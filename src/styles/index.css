@@ -1,0 +1,130 @@
+@font-face {
+    font-family: momcake;
+    src: url(../../res/fonts/momcake.otf);
+}
+
+body, html, #container {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    width: 100%;
+}
+
+#copyright {
+    color: grey;
+    font-size: small;
+}
+
+#nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    position: inherit;
+}
+
+#topnotif {
+    margin-top: 15px;
+    background-color: #FB345C;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+    border-top: 1px solid;
+    border-color: rgba(187, 184, 184, 0.6);
+}
+
+#topnotif h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#nav #title {
+    color: white;
+    opacity: 0.8;
+    font-weight: 900;
+    margin-left: 5vw;
+    font-size: 23px;
+}
+
+#nav #git {
+    color: white;
+    opacity: 0.8;
+    font-weight: normal;
+    margin-left: 70vw;
+    font-size: 15;
+}
+
+#nav #download {
+    color: white;
+    opacity: 0.8;
+    font-weight: normal;
+    margin-left: 5vw;
+    font-size: 15;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #FB345C;
+    background-color: #FB345C;
+    padding: 5px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    cursor: pointer;
+}
+
+#name {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#info {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#extra {
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#soon {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* footer */
+
+#sect {
+    background-color: rgb(29, 29, 31);
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#sect p {
+    color: grey;
+    font-size: 12px;
+}
